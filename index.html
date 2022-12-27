@@ -16,9 +16,9 @@
                 </div>
 
                 <ul>
-                    <li><a href="#">A Propos de nous</a></li>
-                    <li><a href="#">Notre Travail</a></li>
-                    <li><a href="#">Comment réserver</a></li>
+                    <li><a href="#second_part">A Propos de nous</a></li>
+                    <li><a href="#grid-container">Notre Travail</a></li>
+                    <li><a href="#last_part">Comment réserver</a></li>
                 </ul>
             </div>
         </nav>
@@ -38,8 +38,8 @@
      
         </div>
         <!--la partie à propos-->
-        <div class="second_part">
-            <div class="bloc_second_part">
+        <div id="second_part" class="second_part">
+            <div  class="bloc_second_part">
                 <h2>Pour en savoir plus sur nous</h2>
                 <div class="contenue">
                     <p>
@@ -54,8 +54,75 @@
         </div>
        
 
+        <!--la premère partie-->
+       <div id="grid-container" class="grid-container">
+        <div class="child">
+            <h1>Notre travail</h1>
+            <img src="img/FIGMAGROUPE10.png" alt="">
+            <button id="animal"> <a href="page.html">Portrait #1 <br>
+                Une photo d'un animal de compagnie</a> </button>
+        </div>
+        <div class="enfant">
+            <img src="img/FIGMAGROUPE9.png" alt="">
+
+            <button id="enfant"> <a href="page.html"> Portrait #2 <br>
+                Un cliché candide au soleil</a></button>
+            
+        </div>
+       </div>
+    <!--la seconde partie-->
+       <div class="part">
+            <img src="img/FIGMAGROUPE8.png" alt="">
+            <button id="jeune_fille"> <a href="page.html">Portrait #3 <br> Un portrait d'une jeune fille</a></button>
+       </div>
+    <!--la troième partie-->
+        <div class="famille">
+            <div class="pere">
+                <h1>Collection d'événements</h1> 
+                <img src="img/FIGMAGROUPE7.png" alt="">
+
+                <button id="famille"><a href="page.html">Événement #1 <br>
+                    Toute la famille réunie !</a> </button>
+            </div>
+            <div class="couple">
+                <img src="img/FIGMAGROUPE6.png" alt="">
+                <button id="mariage"> <a href="page.html">Événement #2 <br>
+                    La photo de mariage parfaite</a></button>
+                <p></p>
+            </div>
+            <br>
+        </div>    
+        <!--la quatrième partie-->
+        <div class="evenement">
+                <img src="img/FIGMAGROUPE5.png" alt="">
+                <button id="anniv"><a href="page.html">Événement # 3 <br>
+                    Une fête d'anniversaire d'un client spécial </a></button>
+        </div>   
+         <!--la cinquième partie-->
+         <div class="voyage">
+            <div class="monde">
+                <h1>Collection de voyage</h1>
+                <img src="img/FIGMAGROUPE3.png" alt="">
+                <button id="montagne"><a href="page.html"> Voyage # 1 <br>
+                    Au sommet du monde </a></button>
+            </div>
+            <div class="horizon">
+                <img src="img/FIGMAGROUPE4.png" alt="">
+                <button id="ville"><a href="page.html">Voyage # 2 <br>
+                    Un horizon dynamique </a></button>
+            </div>
+            <br>
+         </div>
+    <!--la sixième partie-->
+         <div class="nature">
+            <img src="img/FIGMAGROUPE2.png" alt="">
+            <button id="nature"> <a href="page.html">Voyage # 3 <br>
+                Scènes dans la nature </a></button>
+         </div>
+
+
         <!--la partie resevation-->
-        <div class="last_part">
+        <div id="last_part" class="last_part">
             <div class="bloc_last_part">
                 <h2>Voyez vous à travers notre objectif</h2>
                 <div class="contenue">
@@ -63,7 +130,7 @@
                         MAKAMBU@gmail.com <br>
                         6 rue Gergovia, 03200 Vichy <br>
                         bonjour@makambuprojet.fr <br>
-                        +243 890 000 000, +243 90 100 100 000
+                        +243 890 000 000, +243 900 100 100 
                     </p>
                     <button>
                         <!--le lien vers la reservasion sur un mail directe-->
@@ -72,6 +139,6 @@
                 </div>
             </div>
         </div>
-   
+    <script src="js/script.js"></script>
 </body>
 </html>
